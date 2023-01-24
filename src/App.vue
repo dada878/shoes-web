@@ -12,7 +12,7 @@
 import { defineComponent } from 'vue';
 import PageFooter from './components/PageFooter.vue'
 export default defineComponent({
-  components: {PageFooter},
+  components: { PageFooter },
   data() {
     return {
       isOnTop: true
@@ -22,7 +22,6 @@ export default defineComponent({
     window.addEventListener("scroll", () => {
       this.isOnTop = window.scrollY == 0;
     });
-    // alert(`${window.innerWidth} ${window.innerHeight}`)
   }
 })
 
@@ -34,7 +33,9 @@ html, body, #app {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: #c3cfe2;
+  // background-color: #c3cfe2;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-attachment: fixed;
   height: 100%;
 }
 
@@ -43,8 +44,7 @@ html, body, #app {
 }
 
 ::-webkit-scrollbar-track {
-  // box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  background: rgba(148, 150, 165, 0.582); 
 }
  
 ::-webkit-scrollbar-thumb {

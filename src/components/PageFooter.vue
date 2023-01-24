@@ -26,6 +26,7 @@ export default defineComponent({
     font-size: 1.5rem;
 }
 .footer {
-    background-color: #d4dfee;
+    // background-image: linear-gradient(135deg, #c3cfe2 0%, #f5f7fa 100%);
+    background-color: #d7dfeb;
 }
 </style>
