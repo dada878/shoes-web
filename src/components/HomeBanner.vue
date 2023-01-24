@@ -19,14 +19,14 @@ export default defineComponent({
 @import "../assets/scss/config.scss";
 
 .banner {
-  // background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   .hero {
     display: flex;
     justify-items: center;
     align-items: center;
     gap: 3rem;
-    height: calc(100vh - 10rem);
-    padding-top: 10rem;
+    height: calc(100vh - 0rem);
+    padding-top: 0rem;
     @media ($phone){
       gap: 5rem;
       padding-top: calc(50vh - 30vw - 40px);
