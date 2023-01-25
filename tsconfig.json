@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2020",
     "module": "esnext",
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
+    "downlevelIteration": true,
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
@@ -35,7 +37,8 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
+    "src/lib/wow.js"
   ],
   "exclude": [
     "node_modules"

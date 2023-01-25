@@ -32,12 +32,16 @@ import FeatureCardGroup from '@/components/FeatureCardGroup.vue';
 })
 export default class HomeView extends Vue { }
 </script>
-<style>
+<style lang="scss">
 .users {
   display: flex;
   gap: 2rem;
   padding-left: 5rem;
   padding-right: 5rem;
+  &>* {
+  border-radius: 10px !important;
+
+  }
 }
 
 .instagram-media {

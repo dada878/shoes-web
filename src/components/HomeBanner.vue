@@ -2,8 +2,8 @@
   <section class="banner ">
     <div class="hero container">
       <div>
-        <h1 class="display-2 animate__animated animate__fadeInDown animate__delay-0s">智能懶人瘦腿鞋</h1>
-        <h3 class="display-6 animate__animated animate__fadeInDown animate__delay-1s">輕 ∙ 軟 ∙ 好穿 ∙ 已屬必然</h3>
+        <h1 class="display-2 animate__animated animate__fadeInDown animate__delay-0s">{{ $t("home.title") }}</h1>
+        <h3 class="display-6 animate__animated animate__fadeInDown animate__delay-1s">{{ $t("home.subtitle") }}</h3>
       </div>
       <img class="shoes" draggable="false" src="../assets/shoes.png">
     </div>
@@ -66,23 +66,5 @@ export default defineComponent({
 		transform: translatey(0px);
 	}
 }
-
-
-// .title-1 {
-//   font-size: calc(0.7rem + 3vw);
-//   font-weight: 300;
-//   line-height: 1.2;
-// }
-// @media (min-width: 1200px) {
-//   .title-1 {
-//     font-size: 4.5rem;
-//   }
-// }
-// @media (min-width: 995px) {
-//   .title-1 {
-//     font-size: calc(1rem + 3.5vw);
-//   }
-// }
-
 
 </style>

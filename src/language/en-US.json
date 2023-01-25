@@ -1,0 +1,40 @@
+{
+    "home": {
+        "title": "Stovepipe Shoes",
+        "subtitle": "Light ∙ Soft ∙ Comfortable",
+        "features": [
+            {
+                "title": "Relieves varicose veins",
+                "description": "Sitting for a long time is the main cause of varicose veins, ANAN intelligent double air cushion shoes effective calf surface blood vessel pressure to protect the legs in an all-round way is definitely the first choice for lazy beautiful legs"
+            },
+            {
+                "title": "Powerful prevention of radish legs",
+                "description": "Several points of the calf muscles are fixed with the end point, and the only way to sculpt / slim the leg is to increase the auxiliary force and reduce the calf force"
+            },
+            {
+                "title": "Relieves thumb valgus/plantar fasciitis",
+                "description": "ANAN supports and shares more than 50% of the body weight, greatly reduces the burden on the soles of the feet, and is soft and easy to wear, which is only the favorite of the standard Chang Gung nurses"
+            },
+            {
+                "title": "Dirt-resistant and easy to clean",
+                "description": "Sitting for a long time is the main cause of varicose veins, ANAN intelligent double air cushion shoes effective calf surface blood vessel pressure to protect the legs in an all-round way is definitely the first choice for lazy beautiful legs"
+            },
+            {
+                "title": "3 times anti-slip on rainy days",
+                "description": "ANAN supports and shares more than 50% of the body weight, greatly reduces the burden on the soles of the feet, and is soft and easy to wear, which is only the favorite of the standard Chang Gung nurses"
+            },
+            {
+                "title": "Standing for a long time does not hurt the feet",
+                "description": "ANAN supports and shares more than 50% of the body weight, greatly reduces the burden on the soles of the feet, and is soft and easy to wear, which is only the favorite of the standard Chang Gung nurses"
+            },
+            {
+                "title": "Shock resistance reduces knee wear",
+                "description": "Sitting for a long time is the main cause of varicose veins, ANAN intelligent double air cushion shoes effective calf surface blood vessel pressure to protect the legs in an all-round way is definitely the first choice for lazy beautiful legs"
+            }
+        ]
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About"
+    }
+}

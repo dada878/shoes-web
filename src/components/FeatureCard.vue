@@ -1,5 +1,5 @@
 <template>
-    <section class="feature-card">
+    <section class="feature-card anime-scroll" anime="animate__fadeInUp" >
         <h1 class="h2">{{title}}</h1>
         <p>{{description}}</p>
     </section>
