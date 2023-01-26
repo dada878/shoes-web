@@ -14,6 +14,8 @@ import zhCn from "./language/zh-CN.json";
 import en from "./language/en-US.json";
 import ja from "./language/ja-JP.json";
 
+//TODO: code review for the enitry project
+
 const i18n = createI18n({
   legacy: false,
   locale: localStorage.getItem("locale") ?? navigator.language ?? "zh-TW",

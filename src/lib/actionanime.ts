@@ -1,13 +1,12 @@
 export default () => {
     setTimeout(() => {
-
         for (const element of document.querySelectorAll(".animate__animated")) {
             const className = element.attributes.getNamedItem("anime")?.value;
             if (!className) continue;
             element.classList.remove(className as string, "animate__animated");
         }
 
-        const intersectionObserver = new IntersectionObserver(
+        const intersectionObserver : IntersectionObserver = new IntersectionObserver(
             (entries) => {
                 for (const element of entries) {
                     if (element.isIntersecting) {
@@ -18,7 +17,7 @@ export default () => {
             }
         );
     
-        const hiddenAwakeKeyword = [
+        const hiddenAwakeKeyword : string[] = [
             "backIn",
             "lightSpeedIn",
             "fadeIn"
@@ -35,11 +34,11 @@ export default () => {
     
         for (const element of document.querySelectorAll(".anime-hover")) {
             element.addEventListener("mouseenter", () => {
-                const className = element.attributes.getNamedItem("anime")?.value;
+                const className : string | undefined = element.attributes.getNamedItem("anime")?.value;
                 element.classList.add(className as string, "animate__animated");
             });
             element.addEventListener("mouseleave", () => {
-                const className = element.attributes.getNamedItem("anime")?.value;
+                const className : string = element.attributes.getNamedItem("anime")?.value as string;
                 element.classList.remove(className as string, "animate__animated");
             });
         }

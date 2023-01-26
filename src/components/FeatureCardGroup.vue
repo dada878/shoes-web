@@ -12,7 +12,7 @@
             v-for="i in 4"
             :key="i"
             :title="$t(`home.features[${i+2}].title`)"
-            :description="$t(`home.features[${i-1}].description`)"
+            :description="$t(`home.features[${i+2}].description`)"
         />
     </section>
 </template>
@@ -34,6 +34,9 @@ export default class HomeView extends Vue { }
     display: flex;
     gap: 1rem;
     padding: 3rem;
+    p {
+        text-align: left;
+    }
     &:nth-child(2) {
         padding-bottom: 0rem;
     }

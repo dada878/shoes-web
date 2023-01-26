@@ -60,10 +60,10 @@ export default defineComponent({
     };
   },
   watch: {
-    locale(newlocale: string) {
+    locale(newlocale: string) : void {
       localStorage.setItem("locale", newlocale);
     },
-    $route() {
+    $route() : void {
       actionAnimeRender();
     }
   }
