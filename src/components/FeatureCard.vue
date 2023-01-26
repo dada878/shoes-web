@@ -11,7 +11,7 @@ export default defineComponent({
         title: String,
         description: String,
     }
-})
+});
 </script>
 <style scoped lang="scss">
 .feature-card {

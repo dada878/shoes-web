@@ -13,7 +13,7 @@
 import { defineComponent } from 'vue';
 export default defineComponent({
 
-})
+});
 </script>
 <style scoped lang="scss">
 @import "../assets/scss/config.scss";

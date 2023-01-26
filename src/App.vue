@@ -10,8 +10,8 @@
 <script lang="ts">
 import { useI18n } from "vue-i18n";
 import { defineComponent } from 'vue';
-import PageFooter from './components/PageFooter.vue'
-import LangSelect from './components/LangSelect.vue'
+import PageFooter from './components/PageFooter.vue';
+import LangSelect from './components/LangSelect.vue';
 import actionAnimeRender from './lib/actionanime';
 
 export default defineComponent({
@@ -19,7 +19,7 @@ export default defineComponent({
   data() {
     return {
       isOnTop: true
-    }
+    };
   },
   mounted() {
     window.addEventListener("scroll", () => {
@@ -48,10 +48,10 @@ export default defineComponent({
         title: "日本",
         value: "ja-JP"
       },
-      {
-        title: "中文简体",
-        value: "zh-CN"
-      },
+      // {
+      //   title: "中文简体",
+      //   value: "zh-CN"
+      // },
     ];
     return {
       locale,
@@ -67,8 +67,7 @@ export default defineComponent({
       actionAnimeRender();
     }
   }
-})
-
+});
 </script>
 <style lang="scss">
 html,
