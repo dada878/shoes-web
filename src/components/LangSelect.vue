@@ -57,6 +57,11 @@ export default defineComponent({
     height: 47px;
     line-height: 47px;
     margin-left: auto;
+    transition: 500ms;
+}
+
+.custom-select > .selected:hover {
+    border: 1px solid #2c3e50;
 }
 
 .custom-select .selected {
