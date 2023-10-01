@@ -2,6 +2,7 @@
   <main class="">
     <HomeBanner></HomeBanner>
     <FeatureCardGroup></FeatureCardGroup>
+    <ProductIntroduction></ProductIntroduction>
     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/9AK_Z4Y8l3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
     <!-- <section class="users">
         <iframe class="instagram-media" id="instagram-embed-0"
@@ -25,9 +26,10 @@
 import HomeBanner from '@/components/HomeBanner.vue';
 import { Options, Vue } from 'vue-class-component';
 import FeatureCardGroup from '@/components/FeatureCardGroup.vue';
+import ProductIntroduction from '@/components/ProductIntroduction.vue';
 @Options({
   components: {
-    HomeBanner, FeatureCardGroup
+    HomeBanner, FeatureCardGroup, ProductIntroduction
   },
 })
 export default class HomeView extends Vue { }
