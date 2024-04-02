@@ -48,10 +48,6 @@ export default () => {
                 const className = element.attributes.getNamedItem("anime")?.value;
                 element.classList.add(className as string, "animate__animated");
             });
-            // element.addEventListener("mouseleave", () => {
-            //     const className = element.attributes.getNamedItem("anime").value;
-            //     element.classList.remove(className, "animate__animated");
-            // });
         }
     }, 1);
 };

@@ -1,29 +1,11 @@
-# shoes-web
+# Shoes Website
 
-## Project setup
-```
-npm install
-```
+## Introduction
+A website for a shoe store.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+https://shoes-web-beige.vercel.app/
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Features
+- Uses i18n for internationalization
+- Language switcher
+- Great design
