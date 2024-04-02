@@ -25,5 +25,6 @@ export default defineComponent({
 
 .introduction {
     background-color: #d4ddea;
+    padding: 3rem;
 }
 </style>

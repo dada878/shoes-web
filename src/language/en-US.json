@@ -1,40 +1,36 @@
 {
     "home": {
-        "title": "Stovepipe Shoes",
-        "subtitle": "Light ∙ Soft ∙ Comfortable",
+        "title": "Smart Shoes",
+        "subtitle": "Very Comfortable",
         "features": [
             {
-                "title": "Relieves varicose veins",
-                "description": "Sitting for a long time is the main cause of varicose veins, ANAN intelligent double air cushion shoes effective calf surface blood vessel pressure to protect the legs in an all-round way is definitely the first choice for lazy beautiful legs"
+                "title": "Promotes Blood Circulation",
+                "description": "Utilizing patented air cushion technology, our smart and lightweight leg beautifying shoes effectively promote blood circulation in both legs, reducing the risk of varicose veins. Whether you're a teacher, chef, nurse, or flight attendant, everyone can enjoy the comfort and health protection it provides to the legs."
             },
             {
-                "title": "Powerful prevention of radish legs",
-                "description": "Several points of the calf muscles are fixed with the end point, and the only way to sculpt / slim the leg is to increase the auxiliary force and reduce the calf force"
+                "title": "Shapes Sleek Legs",
+                "description": "Through scientific design, our smart and lightweight leg beautifying shoes reduce the burden on the calves and effectively prevent the formation of 'carrot legs.' Whether you're a lover of high heels or someone who stands for long periods, you can easily achieve sleek leg curves."
             },
             {
-                "title": "Relieves thumb valgus/plantar fasciitis",
-                "description": "ANAN supports and shares more than 50% of the body weight, greatly reduces the burden on the soles of the feet, and is soft and easy to wear, which is only the favorite of the standard Chang Gung nurses"
+                "title": "Relieves Foot Discomfort",
+                "description": "Our smart and lightweight leg beautifying shoes balance the pressure on the soles of the feet, relieving discomfort from bunions and plantar fasciitis. Whether you're a busy office worker or a traveler who walks a lot, you can experience comfort and stress relief."
             },
             {
-                "title": "Dirt-resistant and easy to clean",
-                "description": "Sitting for a long time is the main cause of varicose veins, ANAN intelligent double air cushion shoes effective calf surface blood vessel pressure to protect the legs in an all-round way is definitely the first choice for lazy beautiful legs"
+                "title": "Lightweight with Anti-slip Design",
+                "description": "Featuring lightweight materials and an anti-slip design, our smart and lightweight leg beautifying shoes are perfect for everyday wear and provide more stable walking experience even on rainy days. You can confidently enjoy an elegant stride even on wet surfaces."
             },
             {
-                "title": "3 times anti-slip on rainy days",
-                "description": "ANAN supports and shares more than 50% of the body weight, greatly reduces the burden on the soles of the feet, and is soft and easy to wear, which is only the favorite of the standard Chang Gung nurses"
+                "title": "Reduces Knee Joint Strain",
+                "description": "Equipped with smart air cushion technology, our smart and lightweight leg beautifying shoes efficiently absorb shocks, reducing knee joint strain by over 50%. Whether you're a sports enthusiast or someone who stands for long periods, you can feel the protection and support for your knee joints."
             },
             {
-                "title": "Standing for a long time does not hurt the feet",
-                "description": "ANAN supports and shares more than 50% of the body weight, greatly reduces the burden on the soles of the feet, and is soft and easy to wear, which is only the favorite of the standard Chang Gung nurses"
-            },
-            {
-                "title": "Shock resistance reduces knee wear",
-                "description": "Sitting for a long time is the main cause of varicose veins, ANAN intelligent double air cushion shoes effective calf surface blood vessel pressure to protect the legs in an all-round way is definitely the first choice for lazy beautiful legs"
+                "title": "Shapes Sleek Legs",
+                "description": "Through scientific design, our smart and lightweight leg beautifying shoes reduce the burden on the calves and effectively prevent the formation of 'carrot legs.' Whether you're a lover of high heels or someone who stands for long periods, you can easily achieve sleek leg curves."
             }
         ]
     },
     "nav": {
         "home": "Home",
-        "about": "About"
+        "about": "About Us"
     }
 }

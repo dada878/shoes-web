@@ -9,7 +9,7 @@
     </section>
     <section class="feature-group mx-5">
         <FeatureCard
-            v-for="i in 4"
+            v-for="i in 3"
             :key="i"
             :title="$t(`home.features[${i+2}].title`)"
             :description="$t(`home.features[${i+2}].description`)"

@@ -32,6 +32,11 @@ export default defineComponent({
       padding-top: calc(50vh - 30vw - 40px);
       flex-direction: column;
     }
+
+    h1 {
+      white-space: nowrap;
+    }
+
     .shoes {
       width: 50%;
       filter: drop-shadow(30px 30px 40px rgba(33, 50, 63, 0.452));
@@ -57,13 +62,13 @@ export default defineComponent({
 
 @keyframes float {
 	0% {
-		transform: translatey(0px);
+		transform: translateY(0px);
 	}
 	50% {
-		transform: translatey(-20px);
+		transform: translateY(-20px);
 	}
 	100% {
-		transform: translatey(0px);
+		transform: translateY(0px);
 	}
 }
 

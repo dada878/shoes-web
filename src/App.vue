@@ -48,10 +48,6 @@ export default defineComponent({
         title: "日本",
         value: "ja-JP"
       },
-      // {
-      //   title: "中文简体",
-      //   value: "zh-CN"
-      // },
     ];
     return {
       locale,
@@ -80,7 +76,7 @@ body,
   color: #2c3e50;
   background-color: #c3cfe2;
   background-attachment: fixed;
-  height: 100%;
+  min-height: 100vh;
 }
 
 .lang-select {
