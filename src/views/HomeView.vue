@@ -10,10 +10,9 @@
 import HomeBanner from '@/components/HomeBanner.vue';
 import { Options, Vue } from 'vue-class-component';
 import FeatureCardGroup from '@/components/FeatureCardGroup.vue';
-import ProductIntroduction from '@/components/ProductIntroduction.vue';
 @Options({
   components: {
-    HomeBanner, FeatureCardGroup, ProductIntroduction
+    HomeBanner, FeatureCardGroup
   },
 })
 export default class HomeView extends Vue { }
