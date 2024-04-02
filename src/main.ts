@@ -1,7 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
-import store from './store';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faInstagramSquare, faFacebook, faTwitter, faLine, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -31,7 +30,6 @@ const i18n = createI18n({
 library.add(faInstagramSquare, faFacebook, faTwitter, faLine, faInstagram);
 
 createApp(App)
-    .use(store)
     .use(router)
     .use(i18n)
     .component('font-awesome-icon', FontAwesomeIcon).mount('#app');
